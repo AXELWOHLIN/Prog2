@@ -1,0 +1,8 @@
+# Put test lines in this file!
+# Examples:
+1+2           # Should be 3
+3*4           # Should be 12
+1 + 2*(3+2)   # Should be 11
+3 - 2           # Should be 1
+1+2-3+4         # Should be 4
+1*2/2*2/2       #Should be 1
