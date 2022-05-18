@@ -7,22 +7,15 @@ class Person{
 		int get();
 		void set(int);
 		int fib();
-		int fib2(int);
 	private:
-
-		int age;
 		int fib2(int);
+		int age;
+		};
 Person::Person(int n){
 	age = n;
 }
 int Person::fib(){
-
-	if(age<=1){
-		return age;
-			}
-	else{
-	     	return (this->fib2(age-1) + this->fib2(age-2) );
-		}
+return fib2(age);
 }
 
 int Person::get(){
